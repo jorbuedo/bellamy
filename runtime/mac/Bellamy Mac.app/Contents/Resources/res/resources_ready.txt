@@ -1,0 +1,708 @@
+	local confetti-01 = cc.Sprite:create("Generators/confetti-01.png")
+	confetti-01:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(confetti-01)
+
+	local confetti-02 = cc.Sprite:create("Generators/confetti-02.png")
+	confetti-02:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(confetti-02)
+
+	local smoke = cc.Sprite:create("Generators/smoke.png")
+	smoke:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(smoke)
+
+	local apple = cc.Sprite:create("Images/Apple/apple.png")
+	apple:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(apple)
+
+	local apple_over = cc.Sprite:create("Images/Apple/apple_over.png")
+	apple_over:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(apple_over)
+
+	local apple_star = cc.Sprite:create("Images/Apple/apple_star.png")
+	apple_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(apple_star)
+
+	local apple_tree = cc.Sprite:create("Images/Apple/apple_tree.png")
+	apple_tree:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(apple_tree)
+
+	local back = cc.Sprite:create("Images/Apple/back.png")
+	back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(back)
+
+	local info_wood = cc.Sprite:create("Images/Apple/info_wood.png")
+	info_wood:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(info_wood)
+
+	local pig_1 = cc.Sprite:create("Images/Apple/pig_1.png")
+	pig_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(pig_1)
+
+	local pig_2 = cc.Sprite:create("Images/Apple/pig_2.png")
+	pig_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(pig_2)
+
+	local play_again = cc.Sprite:create("Images/Apple/play_again.png")
+	play_again:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(play_again)
+
+	local back = cc.Sprite:create("Images/Chocolate/back.png")
+	back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(back)
+
+	local bee_1 = cc.Sprite:create("Images/Chocolate/bee_1.png")
+	bee_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bee_1)
+
+	local bee_2 = cc.Sprite:create("Images/Chocolate/bee_2.png")
+	bee_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bee_2)
+
+	local chocolate = cc.Sprite:create("Images/Chocolate/chocolate.png")
+	chocolate:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chocolate)
+
+	local chocolate_icon = cc.Sprite:create("Images/Chocolate/chocolate_icon.png")
+	chocolate_icon:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chocolate_icon)
+
+	local chocolate_over = cc.Sprite:create("Images/Chocolate/chocolate_over.png")
+	chocolate_over:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chocolate_over)
+
+	local chocolate_star = cc.Sprite:create("Images/Chocolate/chocolate_star.png")
+	chocolate_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chocolate_star)
+
+	local info_wood = cc.Sprite:create("Images/Chocolate/info_wood.png")
+	info_wood:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(info_wood)
+
+	local play_again = cc.Sprite:create("Images/Chocolate/play_again.png")
+	play_again:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(play_again)
+
+	local reference_bee = cc.Sprite:create("Images/Chocolate/reference_bee.png")
+	reference_bee:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(reference_bee)
+
+	local clock = cc.Sprite:create("Images/Common/clock.png")
+	clock:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(clock)
+
+	local bad_cake_1 = cc.Sprite:create("Images/Cooking/cakes/bad_cake_1.png")
+	bad_cake_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bad_cake_1)
+
+	local bad_cake_1_no_fly = cc.Sprite:create("Images/Cooking/cakes/bad_cake_1_no_fly.png")
+	bad_cake_1_no_fly:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bad_cake_1_no_fly)
+
+	local bad_cake_2 = cc.Sprite:create("Images/Cooking/cakes/bad_cake_2.png")
+	bad_cake_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bad_cake_2)
+
+	local bad_cake_2_no_fly = cc.Sprite:create("Images/Cooking/cakes/bad_cake_2_no_fly.png")
+	bad_cake_2_no_fly:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bad_cake_2_no_fly)
+
+	local cake_1 = cc.Sprite:create("Images/Cooking/cakes/cake_1.png")
+	cake_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_1)
+
+	local cake_10 = cc.Sprite:create("Images/Cooking/cakes/cake_10.png")
+	cake_10:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_10)
+
+	local cake_11 = cc.Sprite:create("Images/Cooking/cakes/cake_11.png")
+	cake_11:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_11)
+
+	local cake_2 = cc.Sprite:create("Images/Cooking/cakes/cake_2.png")
+	cake_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_2)
+
+	local cake_3 = cc.Sprite:create("Images/Cooking/cakes/cake_3.png")
+	cake_3:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_3)
+
+	local cake_4 = cc.Sprite:create("Images/Cooking/cakes/cake_4.png")
+	cake_4:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_4)
+
+	local cake_5 = cc.Sprite:create("Images/Cooking/cakes/cake_5.png")
+	cake_5:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_5)
+
+	local cake_6 = cc.Sprite:create("Images/Cooking/cakes/cake_6.png")
+	cake_6:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_6)
+
+	local cake_7 = cc.Sprite:create("Images/Cooking/cakes/cake_7.png")
+	cake_7:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_7)
+
+	local cake_8 = cc.Sprite:create("Images/Cooking/cakes/cake_8.png")
+	cake_8:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_8)
+
+	local cake_9 = cc.Sprite:create("Images/Cooking/cakes/cake_9.png")
+	cake_9:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_9)
+
+	local kitchen_back = cc.Sprite:create("Images/Cooking/kitchen_back.png")
+	kitchen_back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(kitchen_back)
+
+	local kitchen_full_back = cc.Sprite:create("Images/Cooking/kitchen_full_back.png")
+	kitchen_full_back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(kitchen_full_back)
+
+	local go_button = cc.Sprite:create("Images/Cooking/step_1/go_button.png")
+	go_button:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(go_button)
+
+	local go_loading_button = cc.Sprite:create("Images/Cooking/step_1/go_loading_button.png")
+	go_loading_button:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(go_loading_button)
+
+	local kitchen_full_back = cc.Sprite:create("Images/Cooking/step_1/kitchen_full_back.png")
+	kitchen_full_back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(kitchen_full_back)
+
+	local select_button = cc.Sprite:create("Images/Cooking/step_1/select_button.png")
+	select_button:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(select_button)
+
+	local selector_front = cc.Sprite:create("Images/Cooking/step_1/selector_front.png")
+	selector_front:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(selector_front)
+
+	local selector_machine = cc.Sprite:create("Images/Cooking/step_1/selector_machine.png")
+	selector_machine:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(selector_machine)
+
+	local animation_1 = cc.Sprite:create("Images/Cooking/step_2/animation_1.png")
+	animation_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(animation_1)
+
+	local animation_2 = cc.Sprite:create("Images/Cooking/step_2/animation_2.png")
+	animation_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(animation_2)
+
+	local cake_machine = cc.Sprite:create("Images/Cooking/step_2/cake_machine.png")
+	cake_machine:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_machine)
+
+	local start_button = cc.Sprite:create("Images/Cooking/step_2/start_button.png")
+	start_button:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(start_button)
+
+	local stop_button = cc.Sprite:create("Images/Cooking/step_2/stop_button.png")
+	stop_button:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(stop_button)
+
+	local temperature_mask = cc.Sprite:create("Images/Cooking/step_2/temperature_mask.png")
+	temperature_mask:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(temperature_mask)
+
+	local transport = cc.Sprite:create("Images/Cooking/step_2/transport.png")
+	transport:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(transport)
+
+	local window = cc.Sprite:create("Images/Cooking/step_2/window.png")
+	window:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(window)
+
+	local cake_decoration_1 = cc.Sprite:create("Images/Cooking/step_3/cake_decoration_1.png")
+	cake_decoration_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_decoration_1)
+
+	local cake_decoration_2 = cc.Sprite:create("Images/Cooking/step_3/cake_decoration_2.png")
+	cake_decoration_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_decoration_2)
+
+	local cake_decoration_3 = cc.Sprite:create("Images/Cooking/step_3/cake_decoration_3.png")
+	cake_decoration_3:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_decoration_3)
+
+	local cake_decoration_4 = cc.Sprite:create("Images/Cooking/step_3/cake_decoration_4.png")
+	cake_decoration_4:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_decoration_4)
+
+	local cake_decoration_5 = cc.Sprite:create("Images/Cooking/step_3/cake_decoration_5.png")
+	cake_decoration_5:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_decoration_5)
+
+	local cake_decoration_6 = cc.Sprite:create("Images/Cooking/step_3/cake_decoration_6.png")
+	cake_decoration_6:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cake_decoration_6)
+
+	local decoration_1 = cc.Sprite:create("Images/Cooking/step_3/decoration_1.png")
+	decoration_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(decoration_1)
+
+	local decoration_2 = cc.Sprite:create("Images/Cooking/step_3/decoration_2.png")
+	decoration_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(decoration_2)
+
+	local decoration_3 = cc.Sprite:create("Images/Cooking/step_3/decoration_3.png")
+	decoration_3:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(decoration_3)
+
+	local decoration_4 = cc.Sprite:create("Images/Cooking/step_3/decoration_4.png")
+	decoration_4:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(decoration_4)
+
+	local decoration_5 = cc.Sprite:create("Images/Cooking/step_3/decoration_5.png")
+	decoration_5:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(decoration_5)
+
+	local decoration_6 = cc.Sprite:create("Images/Cooking/step_3/decoration_6.png")
+	decoration_6:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(decoration_6)
+
+	local selector_arrow = cc.Sprite:create("Images/Cooking/step_3/selector_arrow.png")
+	selector_arrow:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(selector_arrow)
+
+	local selector_back = cc.Sprite:create("Images/Cooking/step_3/selector_back.png")
+	selector_back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(selector_back)
+
+	local transport_long = cc.Sprite:create("Images/Cooking/step_3/transport_long.png")
+	transport_long:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(transport_long)
+
+	local upper_go_button = cc.Sprite:create("Images/Cooking/step_3/upper_go_button.png")
+	upper_go_button:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(upper_go_button)
+
+	local back = cc.Sprite:create("Images/Egg/back.png")
+	back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(back)
+
+	local bad_egg = cc.Sprite:create("Images/Egg/bad_egg.png")
+	bad_egg:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bad_egg)
+
+	local basket = cc.Sprite:create("Images/Egg/basket.png")
+	basket:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(basket)
+
+	local chicken_1 = cc.Sprite:create("Images/Egg/chicken_1.png")
+	chicken_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chicken_1)
+
+	local chicken_2 = cc.Sprite:create("Images/Egg/chicken_2.png")
+	chicken_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chicken_2)
+
+	local chicken_holder = cc.Sprite:create("Images/Egg/chicken_holder.png")
+	chicken_holder:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chicken_holder)
+
+	local egg = cc.Sprite:create("Images/Egg/egg.png")
+	egg:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(egg)
+
+	local egg_over = cc.Sprite:create("Images/Egg/egg_over.png")
+	egg_over:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(egg_over)
+
+	local egg_star = cc.Sprite:create("Images/Egg/egg_star.png")
+	egg_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(egg_star)
+
+	local info_wood = cc.Sprite:create("Images/Egg/info_wood.png")
+	info_wood:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(info_wood)
+
+	local play_again = cc.Sprite:create("Images/Egg/play_again.png")
+	play_again:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(play_again)
+
+	local boy = cc.Sprite:create("Images/Explanation/boy.png")
+	boy:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(boy)
+
+	local bubble = cc.Sprite:create("Images/Explanation/bubble.png")
+	bubble:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bubble)
+
+	local Kitchen = cc.Sprite:create("Images/Explanation/Kitchen.png")
+	Kitchen:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(Kitchen)
+
+	local medal_bubble = cc.Sprite:create("Images/Explanation/medal_bubble.png")
+	medal_bubble:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(medal_bubble)
+
+	local Back = cc.Sprite:create("Images/Intit/Back.png")
+	Back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(Back)
+
+	local banner = cc.Sprite:create("Images/Intit/banner.png")
+	banner:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(banner)
+
+	local clouds = cc.Sprite:create("Images/Intit/clouds.png")
+	clouds:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(clouds)
+
+	local play = cc.Sprite:create("Images/Intit/play.png")
+	play:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(play)
+
+	local apple_poster = cc.Sprite:create("Images/Map/apple_poster.png")
+	apple_poster:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(apple_poster)
+
+	local apple_tree = cc.Sprite:create("Images/Map/apple_tree.png")
+	apple_tree:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(apple_tree)
+
+	local cat = cc.Sprite:create("Images/Map/cat.png")
+	cat:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cat)
+
+	local chicken_1 = cc.Sprite:create("Images/Map/chicken_1.png")
+	chicken_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chicken_1)
+
+	local chicken_2 = cc.Sprite:create("Images/Map/chicken_2.png")
+	chicken_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chicken_2)
+
+	local chicken_3 = cc.Sprite:create("Images/Map/chicken_3.png")
+	chicken_3:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chicken_3)
+
+	local chocolate_poster = cc.Sprite:create("Images/Map/chocolate_poster.png")
+	chocolate_poster:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chocolate_poster)
+
+	local chocolate_tree = cc.Sprite:create("Images/Map/chocolate_tree.png")
+	chocolate_tree:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chocolate_tree)
+
+	local cow = cc.Sprite:create("Images/Map/cow.png")
+	cow:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cow)
+
+	local cow_tail = cc.Sprite:create("Images/Map/cow_tail.png")
+	cow_tail:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cow_tail)
+
+	local dog_body = cc.Sprite:create("Images/Map/dog_body.png")
+	dog_body:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(dog_body)
+
+	local dog_head = cc.Sprite:create("Images/Map/dog_head.png")
+	dog_head:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(dog_head)
+
+	local egg_poster = cc.Sprite:create("Images/Map/egg_poster.png")
+	egg_poster:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(egg_poster)
+
+	local map_back = cc.Sprite:create("Images/Map/map_back.png")
+	map_back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(map_back)
+
+	local milk_poster = cc.Sprite:create("Images/Map/milk_poster.png")
+	milk_poster:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(milk_poster)
+
+	local sheep_1 = cc.Sprite:create("Images/Map/sheep_1.png")
+	sheep_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(sheep_1)
+
+	local sheep_2 = cc.Sprite:create("Images/Map/sheep_2.png")
+	sheep_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(sheep_2)
+
+	local stamp_basket = cc.Sprite:create("Images/Map/stamp_basket.png")
+	stamp_basket:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(stamp_basket)
+
+	local strawberry_poster = cc.Sprite:create("Images/Map/strawberry_poster.png")
+	strawberry_poster:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(strawberry_poster)
+
+	local strawberry_tree = cc.Sprite:create("Images/Map/strawberry_tree.png")
+	strawberry_tree:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(strawberry_tree)
+
+	local wheat = cc.Sprite:create("Images/Map/wheat.png")
+	wheat:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(wheat)
+
+	local wheat_poster = cc.Sprite:create("Images/Map/wheat_poster.png")
+	wheat_poster:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(wheat_poster)
+
+	local back = cc.Sprite:create("Images/Milk/back.png")
+	back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(back)
+
+	local info_wood = cc.Sprite:create("Images/Milk/info_wood.png")
+	info_wood:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(info_wood)
+
+	local milk_cup = cc.Sprite:create("Images/Milk/milk_cup.png")
+	milk_cup:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(milk_cup)
+
+	local milk_over = cc.Sprite:create("Images/Milk/milk_over.png")
+	milk_over:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(milk_over)
+
+	local milk_star = cc.Sprite:create("Images/Milk/milk_star.png")
+	milk_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(milk_star)
+
+	local play_again = cc.Sprite:create("Images/Milk/play_again.png")
+	play_again:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(play_again)
+
+	local tit_1 = cc.Sprite:create("Images/Milk/tit_1.png")
+	tit_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(tit_1)
+
+	local tit_2 = cc.Sprite:create("Images/Milk/tit_2.png")
+	tit_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(tit_2)
+
+	local tit_3 = cc.Sprite:create("Images/Milk/tit_3.png")
+	tit_3:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(tit_3)
+
+	local tit_4 = cc.Sprite:create("Images/Milk/tit_4.png")
+	tit_4:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(tit_4)
+
+	local tit_5 = cc.Sprite:create("Images/Milk/tit_5.png")
+	tit_5:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(tit_5)
+
+	local tit_6 = cc.Sprite:create("Images/Milk/tit_6.png")
+	tit_6:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(tit_6)
+
+	local tit_7 = cc.Sprite:create("Images/Milk/tit_7.png")
+	tit_7:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(tit_7)
+
+	local tit_8 = cc.Sprite:create("Images/Milk/tit_8.png")
+	tit_8:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(tit_8)
+
+	local upper_part = cc.Sprite:create("Images/Milk/upper_part.png")
+	upper_part:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(upper_part)
+
+	local boy = cc.Sprite:create("Images/Party/bad/boy.png")
+	boy:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(boy)
+
+	local cat = cc.Sprite:create("Images/Party/bad/cat.png")
+	cat:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cat)
+
+	local chicken_1 = cc.Sprite:create("Images/Party/bad/chicken_1.png")
+	chicken_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chicken_1)
+
+	local chicken_2 = cc.Sprite:create("Images/Party/bad/chicken_2.png")
+	chicken_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(chicken_2)
+
+	local cow = cc.Sprite:create("Images/Party/bad/cow.png")
+	cow:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(cow)
+
+	local dog = cc.Sprite:create("Images/Party/bad/dog.png")
+	dog:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(dog)
+
+	local final_back = cc.Sprite:create("Images/Party/bad/final_back.png")
+	final_back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(final_back)
+
+	local final_back_flag = cc.Sprite:create("Images/Party/bad/final_back_flag.png")
+	final_back_flag:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(final_back_flag)
+
+	local girl = cc.Sprite:create("Images/Party/bad/girl.png")
+	girl:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(girl)
+
+	local kid = cc.Sprite:create("Images/Party/bad/kid.png")
+	kid:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(kid)
+
+	local pig = cc.Sprite:create("Images/Party/bad/pig.png")
+	pig:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(pig)
+
+	local sheep = cc.Sprite:create("Images/Party/bad/sheep.png")
+	sheep:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(sheep)
+
+	local table = cc.Sprite:create("Images/Party/bad/table.png")
+	table:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(table)
+
+	local final_back = cc.Sprite:create("Images/Party/good/final_back.png")
+	final_back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(final_back)
+
+	local final_back_flag = cc.Sprite:create("Images/Party/good/final_back_flag.png")
+	final_back_flag:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(final_back_flag)
+
+	local happy_boy = cc.Sprite:create("Images/Party/good/happy_boy.png")
+	happy_boy:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_boy)
+
+	local happy_cat = cc.Sprite:create("Images/Party/good/happy_cat.png")
+	happy_cat:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_cat)
+
+	local happy_chicken_1 = cc.Sprite:create("Images/Party/good/happy_chicken_1.png")
+	happy_chicken_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_chicken_1)
+
+	local happy_chicken_2 = cc.Sprite:create("Images/Party/good/happy_chicken_2.png")
+	happy_chicken_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_chicken_2)
+
+	local happy_cow = cc.Sprite:create("Images/Party/good/happy_cow.png")
+	happy_cow:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_cow)
+
+	local happy_dog = cc.Sprite:create("Images/Party/good/happy_dog.png")
+	happy_dog:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_dog)
+
+	local happy_girl = cc.Sprite:create("Images/Party/good/happy_girl.png")
+	happy_girl:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_girl)
+
+	local happy_pig = cc.Sprite:create("Images/Party/good/happy_pig.png")
+	happy_pig:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_pig)
+
+	local happy_sheep = cc.Sprite:create("Images/Party/good/happy_sheep.png")
+	happy_sheep:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(happy_sheep)
+
+	local kid = cc.Sprite:create("Images/Party/good/kid.png")
+	kid:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(kid)
+
+	local table = cc.Sprite:create("Images/Party/good/table.png")
+	table:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(table)
+
+	local back = cc.Sprite:create("Images/Strawberry/back.png")
+	back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(back)
+
+	local bad_strawberry = cc.Sprite:create("Images/Strawberry/bad_strawberry.png")
+	bad_strawberry:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bad_strawberry)
+
+	local info_wood = cc.Sprite:create("Images/Strawberry/info_wood.png")
+	info_wood:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(info_wood)
+
+	local play_again = cc.Sprite:create("Images/Strawberry/play_again.png")
+	play_again:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(play_again)
+
+	local strawberry = cc.Sprite:create("Images/Strawberry/strawberry.png")
+	strawberry:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(strawberry)
+
+	local strawberry_over = cc.Sprite:create("Images/Strawberry/strawberry_over.png")
+	strawberry_over:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(strawberry_over)
+
+	local strawberry_star = cc.Sprite:create("Images/Strawberry/strawberry_star.png")
+	strawberry_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(strawberry_star)
+
+	local strawberry_tree = cc.Sprite:create("Images/Strawberry/strawberry_tree.png")
+	strawberry_tree:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(strawberry_tree)
+
+	local back = cc.Sprite:create("Images/Table/back.png")
+	back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(back)
+
+	local stamp_apple_star = cc.Sprite:create("Images/Table/stamp_apple_star.png")
+	stamp_apple_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(stamp_apple_star)
+
+	local stamp_chocolate_star = cc.Sprite:create("Images/Table/stamp_chocolate_star.png")
+	stamp_chocolate_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(stamp_chocolate_star)
+
+	local stamp_egg_star = cc.Sprite:create("Images/Table/stamp_egg_star.png")
+	stamp_egg_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(stamp_egg_star)
+
+	local stamp_milk_star = cc.Sprite:create("Images/Table/stamp_milk_star.png")
+	stamp_milk_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(stamp_milk_star)
+
+	local stamp_strawberry_star = cc.Sprite:create("Images/Table/stamp_strawberry_star.png")
+	stamp_strawberry_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(stamp_strawberry_star)
+
+	local stamp_wheat_star = cc.Sprite:create("Images/Table/stamp_wheat_star.png")
+	stamp_wheat_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(stamp_wheat_star)
+
+	local table = cc.Sprite:create("Images/Table/table.png")
+	table:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(table)
+
+	local back = cc.Sprite:create("Images/Wheat/back.png")
+	back:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(back)
+
+	local bird_1 = cc.Sprite:create("Images/Wheat/bird_1.png")
+	bird_1:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bird_1)
+
+	local bird_2 = cc.Sprite:create("Images/Wheat/bird_2.png")
+	bird_2:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bird_2)
+
+	local bird_3 = cc.Sprite:create("Images/Wheat/bird_3.png")
+	bird_3:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(bird_3)
+
+	local info_wood = cc.Sprite:create("Images/Wheat/info_wood.png")
+	info_wood:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(info_wood)
+
+	local play_again = cc.Sprite:create("Images/Wheat/play_again.png")
+	play_again:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(play_again)
+
+	local wheat = cc.Sprite:create("Images/Wheat/wheat.png")
+	wheat:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(wheat)
+
+	local wheat_over = cc.Sprite:create("Images/Wheat/wheat_over.png")
+	wheat_over:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(wheat_over)
+
+	local wheat_star = cc.Sprite:create("Images/Wheat/wheat_star.png")
+	wheat_star:setPosition(visibleSize.width * 0.5, visibleSize.height * 0.5)
+	layerChocolate:addChild(wheat_star)
+

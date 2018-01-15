@@ -1,0 +1,22 @@
+/*
+ Localizable.strings
+ Bellamy
+ 
+ Created by Pau Sastre Miguel on 21/02/14.
+ Copyright (c) 2014 Incomedia. All rights reserved.
+ */
+
+"story1" = "Salut ! J'ai un sacré problème ! Juste aujourd'hui, c'est l'anniversaire de notre copain et notre pâtissier est tombé malade. Nous avons besoin d'un coup de main urgent. Il faut lui préparer un énorme gâteau ou  une méga tarte. POURRAIS-TU NOUS AIDER ?";
+
+"story2" = "Salut ! Dans quelques heures, un de mes meilleurs amis fêtera son anniversaire et le gâteau que nous attendons n'arrive toujours pas. La voiture est tombée en panne. Il faut absolument que tu nous aides pour faire le meilleur des gâteaux. VEUX-TU ÊTRE NOTRE CHEF?";
+
+"story3" = "Tu ne vas pas en croire un mot ! Nous étions en train de faire un gâteau pour célébrer l'anniversaire d'un bon copain et nous l'avons râté. On l'a brûlé ! La fête est prévue pour dans 20 minutes et tous les invités sont déjà là. Aide-nous, s'il te plaît !!!";
+
+"story4" = "Attention ! Nous avons une urgence ! Aujourd'hui, c' est l' anniversaire de notre meilleur ami ! ... Et on l´a complètement oublié ! Nous venons te demander que tu nous aides à lui préparer le plus savoureux des gâteaux en moins d´une heure.";
+
+"story5" = "Te considères-tu un bon pâtissier ? Montre-le nous en nous préparant le meilleur gâteau que tu aies jamais fait ou la meilleure tarte du monde. BONNE CHANCE !!!";
+
+"instructions1" = "Une fois arrivé à la ferme, tu devras obtenir 6 médailles.";
+"instructions2" = "Au moment de la préparation du gâteau, nous te souhaitons : BONNE CHANCE !!!";
+
+

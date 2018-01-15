@@ -1,0 +1,16 @@
+/*
+ Localizable.strings
+ Bellamy
+ 
+ Created by Pau Sastre Miguel on 21/02/14.
+ Copyright (c) 2014 Incomedia. All rights reserved.
+ */
+
+"story1" = "¡Hola! Tenemos un enorme problema! Nuestro amigo cumple años hoy y nuestro pastelero está enfermo! Necesitamos tu ayuda urgentemente para poder hacer una mega tarta! ¿Puedes ayudarnos?";
+"story2" = "¡Hola! Uno de nuestros mejores amigos cumple años en unas horas y ¡la tarta que encargamos no llega! Parece ser que se ha averiado el coche! Necesitamos tu ayuda para hacer la mejor tarta del mundo. ¿Quieres ser nuestro chef?";
+"story3" = "¡No te lo vas a creer! Estábamos preparando una tarta de cumpleaños para un súper amigo y ¡se nos ha quemado! La fiesta sorpresa es en veinte minutos y todos los invitados están aquí! ¡Te necesitamos!";
+"story4" = "¡Tenemos una emergencia! Hoy es el cumple de nuestro amigo y... ¡Se nos había olvidado por completo! ¡Necesitamos tu mega ayuda para hacer una tarta de cumpleaños en menos de una hora!";
+"story5" = "¿Eres un buen pastelero? demuéstranos que eres capaz de hacer la tarta más sabrosa del mundo entero! ¡Buena suerte!";
+
+"instructions1" = "Una vez entres en la granja tendrás que conseguir las seis medallas";
+"instructions2" = "para poder hacer la tarta. ¡Buena suerte!";
